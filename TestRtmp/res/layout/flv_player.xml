@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="Rtmp Media Player"
+        android:textColor="#9B30FF"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/setup_tv_host"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="URL:"
+        android:textColor="#fB3020" />
+
+    <EditText
+        android:id="@+id/setup_et_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rtmp://192.168.1.126:1935/live" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="File:"
+        android:textColor="#fB3020" />
+
+    <EditText
+        android:id="@+id/setup_et_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="yili.flv" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:keepScreenOn="true" />
+
+    <Button
+        android:id="@+id/main_bt_refresh"
+        android:layout_width="115dip"
+        android:layout_height="45dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dip"
+        android:text="Refresh" />
+
+</LinearLayout>

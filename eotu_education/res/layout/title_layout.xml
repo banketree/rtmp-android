@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:background="@color/thin_black" >
+
+    <TextView
+        android:id="@+id/TextView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="免费教程"
+        android:textColor="@color/white"
+        android:textSize="28dip" />
+
+</RelativeLayout>

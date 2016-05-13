@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/example/whiteboard/BoardView.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/example/player/Player.java" />
+        <ignore path="src/com/example/testrtmp/Player.java" />
+    </issue>
+    <issue id="ResourceAsColor">
+        <ignore path="src/com/example/whiteboard/BoardView.java" />
+    </issue>
+</lint>

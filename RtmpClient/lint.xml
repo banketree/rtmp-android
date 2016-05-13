@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src\org\red5\io\FileKeyFrameMetaCache.java" />
+        <ignore path="src\org\red5\io\utils\XMLUtils.java" />
+    </issue>
+</lint>

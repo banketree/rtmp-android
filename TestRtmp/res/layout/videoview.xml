@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.vlccore.PlayerPlugin
+        android:id="@+id/PlayerPlugin_player"
+        android:layout_width="fill_parent"
+        android:layout_height="280dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/Button_playurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放Url" />
+
+    <Button
+        android:id="@+id/Button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止" />
+
+</LinearLayout>

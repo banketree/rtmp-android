@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电子白板" />
+
+    <com.example.whiteboard.BoardView
+        android:id="@+id/BoardView"
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+        android:layout_weight="1"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/Button_draw_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画直线" />
+
+        <Button
+            android:id="@+id/Button_draw_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画点" />
+
+        <Button
+            android:id="@+id/Button_draw_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画圆" />
+
+        <Button
+            android:id="@+id/Button_draw_rectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画矩形" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画直线" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画点" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画圆" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画矩形" />
+    </LinearLayout>
+
+</LinearLayout>

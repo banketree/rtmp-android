@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/TextView_rtmp_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="rtmp状态" />
+
+    <Button
+        android:id="@+id/Button_rtmp_loginOrExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView_rtmp_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="rtmp登陆" />
+
+    <Button
+        android:id="@+id/Button_sendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_rtmp_loginOrExit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="发送消息" />
+
+    <Button
+        android:id="@+id/Button_getMembers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_sendMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="获取在线列表" />
+
+    <Button
+        android:id="@+id/Button_whiteboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_getMembers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="电子白板" />
+
+    <Button
+        android:id="@+id/Button_ppt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_whiteboard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="ppt view" />
+
+    <Button
+        android:id="@+id/Button_getAvailableFlvs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_ppt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="获取在线视频" />
+
+    <ListView
+        android:id="@+id/ListView_AvailableFlvs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_getAvailableFlvs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip" />
+
+</RelativeLayout>

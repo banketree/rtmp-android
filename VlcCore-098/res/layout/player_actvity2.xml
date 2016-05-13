@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 全屏和小屏分开 此处为小屏 -->
+
+    <com.vlccore.PlayerPlugin
+        android:id="@+id/PlayerPlugin_player"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Button_playurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放url" />
+
+        <Button
+            android:id="@+id/Button_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止" />
+
+        <Button
+            android:id="@+id/Button_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切换屏幕" />
+
+        <Button
+            android:id="@+id/Button_jietu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="截图" />
+
+        <Button
+            android:id="@+id/Button_luxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="录像" />
+    </LinearLayout>
+
+</RelativeLayout>
